@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завтраки - Шведский стол в Vrand Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Общие стили для всего сайта (из вашего кода) */
+        body {
+            font-family: sans-serif;
+            background-color: #c0eaf0; /* Цвет фона из вашего div */
+            margin: 0; /* Убираем стандартные отступы body */
+            padding: 0;
+            line-height: 1.6; /* Улучшаем читаемость текста */
+            color: #333; /* Основной цвет текста */
+        }
+
+        .navbar {
+            margin-bottom: 20px; 
+        }
+
+        /* Стили для страницы с завтраками (чтобы она выглядела аккуратно) */
+        .breakfast-container {
+            max-width: 900px; /* Увеличим ширину для списка блюд */
+            margin: 20px auto; /* Центрируем и добавляем отступы */
+            padding: 30px; /* Увеличим внутренние отступы */
+            background-color: #fff; /* Белый фон для содержимого */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Более выраженная тень */
+            border-radius: 10px; /* Слегка скругленные углы */
+        }
+
+        .breakfast-container h1 {
+            text-align: center;
+            color: #007bff; /* Основной цвет, например, синий */
+            margin-bottom: 25px;
+            font-size: 2.5em; /* Увеличим размер заголовка */
+            font-weight: bold;
+        }
+
+        .breakfast-container h2 {
+            color: #007bff;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e9ecef; /* Линия под заголовком */
+            padding-bottom: 5px;
+        }
+
+        .breakfast-container p {
+            margin-bottom: 15px;
+        }
+
+        .breakfast-container ul {
+            list-style: none; /* Убираем стандартные маркеры списка */
+            padding-left: 0;
+        }
+
+        .breakfast-container ul ul { /* Вложенные списки */
+            padding-left: 20px;
+            list-style: disc; /* Возвращаем маркеры для вложенных списков */
+        }
+
+        .breakfast-container li {
+            margin-bottom: 8px;
+        }
+
+        .breakfast-container strong {
+            color: #0056b3; /* Чуть темнее синий для акцента */
+        }
+
+        /* Стили для кнопки "Вернуться назад" */
+        .btn-back-container {
+                        text-align: center;
+            margin-top: 30px;
+            margin-bottom: 50px; /* Отступ снизу */
+        }
+
+        /* Дополнительные стили для основного контейнера, если нужно */
+        .container {
+            padding-left: 15px; /* Стандартный отступ Bootstrap */
+            padding-right: 15px; /* Стандартный отступ Bootstrap */
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="bg-info p-3 mb-3 rounded"> 
+        <h1>Vrand Hotel</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="рабочий (с бустом ).html">Главная</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="отели.html">Отели</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="страница3.html">Ресторан</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="страница с завтраками.html">Завтраки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="страница 4.html">Бронирование</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Содержимое страницы Шведского стола -->
+    <div class="breakfast-container">
+        <h1>Шведский стол на завтрак в Vrand Hotel</h1>
+
+        <p>Добро пожаловать на наш легендарный шведский стол на завтрак! Это настоящий рай для гурманов, где вас ждет неограниченное количество вкуснейших блюд на любой вкус! Откройте для себя мир утренних наслаждений с <strong>7:00 до 11:00</strong> каждый день.</p>
+
+        <h2>Что вас ждет на нашем шведском столе?</h2>
+
+        <ul>
+            <li><strong>Горячие блюда:</strong>
+                <ul>
+                    <li>Несколько видов яичницы и омлетов (с разными начинками: сыр, ветчина, овощи).</li>
+                    <li>Сосиски, колбаски, бекон (хрустящий и нежный).</li>
+                    <li>Картофельные оладьи (драники) со сметаной.</li>
+                    <li>Блинчики и оладьи (классические и с разными начинками: яблоки, ягоды, творог).</li>
+                    <li>Вареники (с картошкой, с вишней, с творогом).</li>
+                    <li>Каши (овсяная, рисовая, гречневая - на молоке и на воде).</li>
+                    <li>Тушеные овощи.</li>
+                </ul>
+            </li>
+
+            <li><strong>Холодные закуски:</strong>
+                <ul>
+                    <li>Мясная нарезка (разные виды колбас, ветчины, буженины).</li>
+                    <li>Сырная тарелка (твердые, мягкие, с плесенью).</li>
+                    <li>Рыбная нарезка (лосось, сельдь, копченая рыба).</li>
+                    <li>Овощная нарезка (свежие огурцы, помидоры, перец, морковь).</li>
+                    <li>Салаты (оливье, винегрет, греческий, цезарь).</li>
+                </ul>
+            </li>
+
+            <li><strong>Выпечка:</strong>
+                <ul>
+                    <li>Круассаны (с разными начинками: шоколад, миндаль).</li>
+                    <li>Булочки (с маком, с корицей).</li>
+                    <li>Пирожки (с капустой, с мясом, с яблоками).</li>
+                    
