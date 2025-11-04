@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Vrand Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <div style="background-color: #c0eaf0;">
+    <style>
+        
+        body {
+            font-family: sans-serif;
+        }
+
+        .navbar {
+            margin-bottom: 20px; 
+        }
+
+        .carousel {
+            max-height: 500px; 
+            margin: 0 auto; 
+        }
+
+        .carousel-item img {
+            object-fit: cover; 
+            max-height: 500px; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="bg-info p-3 mb-3 rounded"> 
+        <h1>Vrand Hotel</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Главная</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="отели.html">Отели</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="страница3.html">Ресторан</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="страница с завтраками.html">Завтраки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="страница 4.html">Бронирование</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Шапка меню -->
+    <header class="menu-header text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Меню Ресторана Отеля "Vrand Hotel"</h1>
+            <p class="lead">Откройте для себя мир изысканных вкусов</p>
+        </div>
+    </header>
+
+    <!-- Основное содержимое меню -->
+    <main class="container mt-5 mb-5">
+        <!-- Секция "Закуски" -->
+        <section id="appetizers" class="mb-5">
+            <div class="card menu-category-card">
+                <div class="card-header bg-primary text-white text-center py-3 rounded-top-3">
+                    <h2 class="h3 mb-0">Закуски</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Салат "Цезарь" с курицей</h5>
+                                <p class="mb-1 menu-item-description">Классический салат с нежным куриным филе, хрустящими гренками, пармезаном и соусом "Цезарь".</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">450 руб.</span>
+                        </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Брускетта с томатами и базиликом</h5>
+                                <p class="mb-1 menu-item-description">Ароматные томаты, свежий базилик, оливковое масло на поджаренном хлебе.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">320 руб.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Ассорти из сыров</h5>
+                                <p class="mb-1 menu-item-description">Набор из лучших европейских сыров с медом и орехами.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">780 руб.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Основные блюда" -->
+        <section id="main-courses" class="mb-5">
+            <div class="card menu-category-card">
+                <div class="card-header bg-success text-white text-center py-3 rounded-top-3">
+                    <h2 class="h3 mb-0">Основные блюда</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Стейк из лосося с овощами гриль</h5>
+                                <p class="mb-1 menu-item-description">Нежный стейк из норвежского лосося, приготовленный на гриле, подается с сезонными овощами.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">890 руб.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Паста Карбонара</h5>
+                                <p class="mb-1 menu-item-description">Традиционная итальянская паста с беконом, яичным желтком, пармезаном и черным перцем.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">680 руб.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Утиная грудка с ягодным соусом</h5>
+                                <p class="mb-1 menu-item-description">Сочная утиная грудка, обжаренная до золотистой корочки, с кисло-сладким ягодным соусом.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">950 руб.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Десерты" -->
+        <section id="desserts" class="mb-5">
+            <div class="card menu-category-card">
+                <div class="card-header bg-info text-white text-center py-3 rounded-top-3">
+                    <h2 class="h3 mb-0">Десерты</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb
+                                1">Чизкейк "Нью-Йорк"</h5>
+                                <p class="mb-1 menu-item-description">Классический сливочный чизкейк с нежным кремом и хрустящей основой.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">380 руб.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Тирамису</h5>
+                                <p class="mb-1 menu-item-description">Итальянский многослойный десерт с кофе, сыром маскарпоне и какао.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">350 руб.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Напитки" -->
+        <section id="drinks" class="mb-5">
+            <div class="card menu-category-card">
+                <div class="card-header bg-warning text-dark text-center py-3 rounded-top-3">
+                    <h2 class="h3 mb-0">Напитки</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Кофе Американо</h5>
+                                <p class="mb-1 menu-item-description">Классический черный кофе.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">180 руб.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Чай в ассортименте</h5>
+                                <p class="mb-1 menu-item-description">Черный, зеленый, травяной.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">200 руб.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="mb-1">Сок апельсиновый (свежевыжатый)</h5>
+                                <p class="mb-1 menu-item-description">100% натуральный апельсиновый сок.</p>
+                            </div>
+                            <span class="menu-item-price fw-bold">250 руб.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Подвал -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy;3Vrand Hotel. Все права защищены.</p>
+            <p class="mb-0">Адрес: ул. Примерная, 10, Город. Телефон: +7 (XXX) XXX-XX-XX</p>
+        </div>
+    </footer>
+
+    <!-- Подключение Bootstrap 5 JS через CDN (для интерактивных компонентов, если они будут) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
